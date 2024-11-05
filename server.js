@@ -18,7 +18,7 @@ app.set('view engine', 'ejs')
 app.get('/', function (req, res) {
     // Aquí se une con la vista y busca index.ejs
     // Se una res.render en vez de res.send porque es un lenguaje de plantilla
-    res.render('index')
+    res.render('index', {weather: null, error: null})
 })
 
 // app.post('/', function (req, res) {

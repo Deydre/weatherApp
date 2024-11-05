@@ -5,4 +5,12 @@
 
 body {
     background-color: rgb(101, 83, 118);
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+input, .ghost-button {
+    padding: 10px;
+    margin-bottom: 20px;
 }
